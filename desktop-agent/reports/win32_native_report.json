@@ -1,0 +1,621 @@
+{
+  "controls": [
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 5506994,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        254,
+        536,
+        279
+      ],
+      "thread_id": 6072,
+      "title": "D4 native MSAA fixture",
+      "visible": true
+    },
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 657398,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        294,
+        356,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "Edit value",
+      "visible": true
+    },
+    {
+      "class_name": "Edit",
+      "enabled": true,
+      "hwnd": 2099202,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        366,
+        291,
+        606,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "initial text",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 1050638,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        626,
+        291,
+        766,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "Invoke button",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 854074,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        339,
+        356,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Check me",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 7145578,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        366,
+        339,
+        466,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Radio A",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 2164652,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        476,
+        339,
+        576,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Radio B",
+      "visible": true
+    },
+    {
+      "class_name": "ComboBox",
+      "enabled": true,
+      "hwnd": 4327212,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        389,
+        416,
+        489
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "ComboLBox",
+      "enabled": true,
+      "hwnd": 2230266,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        413,
+        416,
+        481
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "Edit",
+      "enabled": true,
+      "hwnd": 4065250,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        239,
+        392,
+        413,
+        410
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "ListBox",
+      "enabled": true,
+      "hwnd": 5179488,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        436,
+        389,
+        616,
+        487
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "SysTreeView32",
+      "enabled": true,
+      "hwnd": 4392764,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        636,
+        389,
+        836,
+        569
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "SysTabControl32",
+      "enabled": true,
+      "hwnd": 263584,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        519,
+        616,
+        699
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 263586,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        739,
+        736,
+        769
+      ],
+      "thread_id": 6072,
+      "title": "Status: ready",
+      "visible": true
+    }
+  ],
+  "failures": [],
+  "fixture": {
+    "hwnd": 329114,
+    "name": "D5 Native Win32 Fixture",
+    "owned": true,
+    "pid": 8196
+  },
+  "native_operations": [
+    {
+      "control": "BUTTON",
+      "operation": "BM_GETSTATE",
+      "value": 0
+    },
+    {
+      "control": "list",
+      "hwnd": 5179488,
+      "operation": "count",
+      "selection": -1,
+      "value": 3
+    },
+    {
+      "control": "combo",
+      "hwnd": 4327212,
+      "operation": "count",
+      "selection": -1,
+      "value": 3
+    },
+    {
+      "control": "tree",
+      "hwnd": 4392764,
+      "operation": "count",
+      "selection": null,
+      "value": 0
+    },
+    {
+      "control": "tab",
+      "hwnd": 263584,
+      "operation": "count",
+      "selection": -1,
+      "value": 0
+    },
+    {
+      "after": "D5_CLIPBOARD_1496600776690000",
+      "control": "clipboard",
+      "expected": "D5_CLIPBOARD_1496600776690000",
+      "operation": "round_trip",
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": false,
+      "before": true,
+      "duration": 0.0027025998570024967,
+      "error": null,
+      "expected": false,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": true,
+      "before": false,
+      "duration": 0.0066380000207573175,
+      "error": null,
+      "expected": true,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": true,
+      "before": true,
+      "duration": 0.014723199885338545,
+      "error": null,
+      "expected": true,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": true,
+      "before": true,
+      "duration": 0.04833319992758334,
+      "error": null,
+      "expected": true,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": true,
+      "before": true,
+      "duration": 0.0265047000721097,
+      "error": null,
+      "expected": true,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    },
+    {
+      "action": "show_state",
+      "after": true,
+      "before": true,
+      "duration": 0.025035300059244037,
+      "error": null,
+      "expected": true,
+      "native_operation": "ShowWindow",
+      "status": "SUPPORTED",
+      "target": 329114,
+      "verification": true
+    }
+  ],
+  "repeatability": [
+    {
+      "action": "WM_SETTEXT",
+      "results": [
+        {
+          "after": "D5_NATIVE_EDIT_1",
+          "attempt": 1,
+          "before": "initial text",
+          "expected": "D5_NATIVE_EDIT_1",
+          "verification": true
+        },
+        {
+          "after": "D5_NATIVE_EDIT_2",
+          "attempt": 2,
+          "before": "D5_NATIVE_EDIT_1",
+          "expected": "D5_NATIVE_EDIT_2",
+          "verification": true
+        },
+        {
+          "after": "D5_NATIVE_EDIT_3",
+          "attempt": 3,
+          "before": "D5_NATIVE_EDIT_2",
+          "expected": "D5_NATIVE_EDIT_3",
+          "verification": true
+        },
+        {
+          "after": "D5_NATIVE_EDIT_4",
+          "attempt": 4,
+          "before": "D5_NATIVE_EDIT_3",
+          "expected": "D5_NATIVE_EDIT_4",
+          "verification": true
+        },
+        {
+          "after": "D5_NATIVE_EDIT_5",
+          "attempt": 5,
+          "before": "D5_NATIVE_EDIT_4",
+          "expected": "D5_NATIVE_EDIT_5",
+          "verification": true
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "timings": {
+    "total": 0.370493299793452
+  },
+  "windows": [
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 5506994,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        254,
+        536,
+        279
+      ],
+      "thread_id": 6072,
+      "title": "D4 native MSAA fixture",
+      "visible": true
+    },
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 657398,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        294,
+        356,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "Edit value",
+      "visible": true
+    },
+    {
+      "class_name": "Edit",
+      "enabled": true,
+      "hwnd": 2099202,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        366,
+        291,
+        606,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "initial text",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 1050638,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        626,
+        291,
+        766,
+        319
+      ],
+      "thread_id": 6072,
+      "title": "Invoke button",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 854074,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        339,
+        356,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Check me",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 7145578,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        366,
+        339,
+        466,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Radio A",
+      "visible": true
+    },
+    {
+      "class_name": "Button",
+      "enabled": true,
+      "hwnd": 2164652,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        476,
+        339,
+        576,
+        367
+      ],
+      "thread_id": 6072,
+      "title": "Radio B",
+      "visible": true
+    },
+    {
+      "class_name": "ComboBox",
+      "enabled": true,
+      "hwnd": 4327212,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        389,
+        416,
+        489
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "ComboLBox",
+      "enabled": true,
+      "hwnd": 2230266,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        413,
+        416,
+        481
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "Edit",
+      "enabled": true,
+      "hwnd": 4065250,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        239,
+        392,
+        413,
+        410
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "ListBox",
+      "enabled": true,
+      "hwnd": 5179488,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        436,
+        389,
+        616,
+        487
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "SysTreeView32",
+      "enabled": true,
+      "hwnd": 4392764,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        636,
+        389,
+        836,
+        569
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "SysTabControl32",
+      "enabled": true,
+      "hwnd": 263584,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        519,
+        616,
+        699
+      ],
+      "thread_id": 6072,
+      "title": "",
+      "visible": true
+    },
+    {
+      "class_name": "Static",
+      "enabled": true,
+      "hwnd": 263586,
+      "pid": 8196,
+      "process_name": "D4Win32Fixture.exe",
+      "rect": [
+        236,
+        739,
+        736,
+        769
+      ],
+      "thread_id": 6072,
+      "title": "Status: ready",
+      "visible": true
+    }
+  ]
+}

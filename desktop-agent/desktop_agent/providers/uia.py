@@ -29,6 +29,8 @@ class WindowCandidate:
     rect: tuple[int, int, int, int] | None
     visible: bool
     enabled: bool
+    class_name: str | None = None
+    framework_id: str | None = None
 
 
 class UIAAdapter:
@@ -165,7 +167,20 @@ class UIAAdapter:
             rect=rect,
             visible=window.is_visible(),
             enabled=window.is_enabled(),
+            class_name=UIAAdapter._optional_element_info_attr(
+                window.element_info, "class_name"
+            ),
+            framework_id=UIAAdapter._optional_element_info_attr(
+                window.element_info, "framework_id"
+            ),
         )
+
+    @staticmethod
+    def _optional_element_info_attr(element_info, name: str):
+        try:
+            return getattr(element_info, name, None)
+        except Exception:
+            return None
 
     @staticmethod
     def _candidate_description(candidate: WindowCandidate) -> str:

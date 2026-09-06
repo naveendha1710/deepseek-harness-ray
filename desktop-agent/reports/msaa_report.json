@@ -1,0 +1,1765 @@
+{
+  "actions": [
+    {
+      "attempts": [
+        {
+          "action": "D4_MSAA_EDIT_1",
+          "after": "D4_MSAA_EDIT_1",
+          "attempt": 1,
+          "before": "initial text",
+          "duration": 0.0013939000200480223,
+          "verification": true
+        },
+        {
+          "action": "D4_MSAA_EDIT_2",
+          "after": "D4_MSAA_EDIT_2",
+          "attempt": 2,
+          "before": "D4_MSAA_EDIT_1",
+          "duration": 0.0011256998404860497,
+          "verification": true
+        },
+        {
+          "action": "D4_MSAA_EDIT_3",
+          "after": "D4_MSAA_EDIT_3",
+          "attempt": 3,
+          "before": "D4_MSAA_EDIT_2",
+          "duration": 0.0012447999324649572,
+          "verification": true
+        },
+        {
+          "action": "D4_MSAA_EDIT_4",
+          "after": "D4_MSAA_EDIT_4",
+          "attempt": 4,
+          "before": "D4_MSAA_EDIT_3",
+          "duration": 0.0010224999859929085,
+          "verification": true
+        },
+        {
+          "action": "D4_MSAA_EDIT_5",
+          "after": "D4_MSAA_EDIT_5",
+          "attempt": 5,
+          "before": "D4_MSAA_EDIT_4",
+          "duration": 0.0014147998299449682,
+          "verification": true
+        }
+      ],
+      "control": "Edit value",
+      "primitive": "set_value"
+    },
+    {
+      "attempts": [
+        {
+          "action": "invoke",
+          "after": "Press",
+          "attempt": 1,
+          "before": "Press",
+          "duration": 0.00014839996583759785,
+          "verification": true
+        },
+        {
+          "action": "invoke",
+          "after": "Press",
+          "attempt": 2,
+          "before": "Press",
+          "duration": 0.00020989985205233097,
+          "verification": true
+        },
+        {
+          "action": "invoke",
+          "after": "Press",
+          "attempt": 3,
+          "before": "Press",
+          "duration": 0.0001501000951975584,
+          "verification": true
+        },
+        {
+          "action": "invoke",
+          "after": "Press",
+          "attempt": 4,
+          "before": "Press",
+          "duration": 0.0005018999800086021,
+          "verification": true
+        },
+        {
+          "action": "invoke",
+          "after": "Press",
+          "attempt": 5,
+          "before": "Press",
+          "duration": 6.079999729990959e-05,
+          "verification": true
+        }
+      ],
+      "control": "Invoke button",
+      "primitive": "default_action"
+    }
+  ],
+  "controls": [
+    {
+      "class_name": "Static",
+      "control_id": 1,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 788674,
+        "id": "788674:0",
+        "name": "D4 native MSAA fixture",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 788674,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "D4 native MSAA fixture"
+    },
+    {
+      "class_name": "Static",
+      "control_id": 2,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 526532,
+        "id": "526532:0",
+        "name": "Edit value",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 526532,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Edit value"
+    },
+    {
+      "class_name": "Edit",
+      "control_id": 101,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 1312966,
+        "id": "1312966:0",
+        "name": "Edit value",
+        "parent_id": null,
+        "role": "editable text",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": "initial text"
+      },
+      "enabled": true,
+      "hwnd": 1312966,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "initial text"
+    },
+    {
+      "class_name": "Button",
+      "control_id": 102,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Press",
+        "description": null,
+        "hwnd": 2099402,
+        "id": "2099402:0",
+        "name": "Invoke button",
+        "parent_id": null,
+        "role": "push button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 2099402,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "invoke",
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Invoke button"
+    },
+    {
+      "class_name": "Button",
+      "control_id": 103,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 854220,
+        "id": "854220:0",
+        "name": "Check me",
+        "parent_id": null,
+        "role": "check button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 854220,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "invoke",
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Check me"
+    },
+    {
+      "class_name": "Button",
+      "control_id": 104,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 985294,
+        "id": "985294:0",
+        "name": "Radio A",
+        "parent_id": null,
+        "role": "radio button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 985294,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "invoke",
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Radio A"
+    },
+    {
+      "class_name": "Button",
+      "control_id": 105,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 788688,
+        "id": "788688:0",
+        "name": "Radio B",
+        "parent_id": null,
+        "role": "radio button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 788688,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "invoke",
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Radio B"
+    },
+    {
+      "class_name": "ComboBox",
+      "control_id": 106,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 723154,
+        "id": "723154:0",
+        "name": null,
+        "parent_id": null,
+        "role": "combo box",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 723154,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "ComboLBox",
+      "control_id": 1000,
+      "direct_hwnd_provider": {
+        "child_count": 3,
+        "child_id": 0,
+        "children": [
+          "657620:0/1",
+          "657620:0/2",
+          "657620:0/3"
+        ],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657620,
+        "id": "657620:0",
+        "name": null,
+        "parent_id": null,
+        "role": "list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 657620,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "Edit",
+      "control_id": 1001,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657622,
+        "id": "657622:0",
+        "name": null,
+        "parent_id": null,
+        "role": "editable text",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 657622,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "ListBox",
+      "control_id": 107,
+      "direct_hwnd_provider": {
+        "child_count": 3,
+        "child_id": 0,
+        "children": [
+          "657624:0/1",
+          "657624:0/2",
+          "657624:0/3"
+        ],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657624,
+        "id": "657624:0",
+        "name": null,
+        "parent_id": null,
+        "role": "list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 657624,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "SysTreeView32",
+      "control_id": 108,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 592090,
+        "id": "592090:0",
+        "name": null,
+        "parent_id": null,
+        "role": "outline",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 592090,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "SysTabControl32",
+      "control_id": 109,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 723166,
+        "id": "723166:0",
+        "name": null,
+        "parent_id": null,
+        "role": "page tab list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 723166,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": ""
+    },
+    {
+      "class_name": "Static",
+      "control_id": 110,
+      "direct_hwnd_provider": {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 788704,
+        "id": "788704:0",
+        "name": "Status: ready",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      },
+      "enabled": true,
+      "hwnd": 788704,
+      "parent_hwnd": 6620970,
+      "pid": 17372,
+      "provider_sources": [
+        "direct_hwnd"
+      ],
+      "supported_actions": [
+        "focus",
+        "select"
+      ],
+      "thread_id": 2768,
+      "tree_provider": null,
+      "visible": true,
+      "window_text": "Status: ready"
+    }
+  ],
+  "fixture": {
+    "app": "D4 Native Win32 MSAA Fixture",
+    "candidates": [
+      {
+        "enabled": true,
+        "handle": 6620970,
+        "pid": 17372,
+        "rect": [
+          182,
+          182,
+          1082,
+          882
+        ],
+        "title": "D",
+        "visible": true
+      }
+    ],
+    "command": [
+      "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\fixtures\\d4-win32-fixture\\bin\\Release\\net8.0-windows\\D4Win32Fixture.exe"
+    ],
+    "elapsed_seconds": 1.338,
+    "error": null,
+    "launched_pid": 17372,
+    "notes": [
+      "Visible UIA window appeared after launch"
+    ],
+    "process_returncode": null,
+    "selected_handle": 6620970,
+    "selectors_attempted": [
+      "title_re='^D$'"
+    ],
+    "status": "available"
+  },
+  "fixture_metadata": {
+    "accessibility_model": "IAccessible/MSAA",
+    "control_family": "classic user32/comctl32",
+    "framework": "Win32",
+    "provider_type": "native Win32 controls"
+  },
+  "legacy_target": {
+    "reason": "No separate real legacy Windows application was established; the native fixture is controlled evidence only.",
+    "status": "unavailable"
+  },
+  "msaa": {
+    "actions": [
+      {
+        "attempts": [
+          {
+            "action": "D4_MSAA_EDIT_1",
+            "after": "D4_MSAA_EDIT_1",
+            "attempt": 1,
+            "before": "initial text",
+            "duration": 0.0013939000200480223,
+            "verification": true
+          },
+          {
+            "action": "D4_MSAA_EDIT_2",
+            "after": "D4_MSAA_EDIT_2",
+            "attempt": 2,
+            "before": "D4_MSAA_EDIT_1",
+            "duration": 0.0011256998404860497,
+            "verification": true
+          },
+          {
+            "action": "D4_MSAA_EDIT_3",
+            "after": "D4_MSAA_EDIT_3",
+            "attempt": 3,
+            "before": "D4_MSAA_EDIT_2",
+            "duration": 0.0012447999324649572,
+            "verification": true
+          },
+          {
+            "action": "D4_MSAA_EDIT_4",
+            "after": "D4_MSAA_EDIT_4",
+            "attempt": 4,
+            "before": "D4_MSAA_EDIT_3",
+            "duration": 0.0010224999859929085,
+            "verification": true
+          },
+          {
+            "action": "D4_MSAA_EDIT_5",
+            "after": "D4_MSAA_EDIT_5",
+            "attempt": 5,
+            "before": "D4_MSAA_EDIT_4",
+            "duration": 0.0014147998299449682,
+            "verification": true
+          }
+        ],
+        "control": "Edit value",
+        "primitive": "set_value"
+      },
+      {
+        "attempts": [
+          {
+            "action": "invoke",
+            "after": "Press",
+            "attempt": 1,
+            "before": "Press",
+            "duration": 0.00014839996583759785,
+            "verification": true
+          },
+          {
+            "action": "invoke",
+            "after": "Press",
+            "attempt": 2,
+            "before": "Press",
+            "duration": 0.00020989985205233097,
+            "verification": true
+          },
+          {
+            "action": "invoke",
+            "after": "Press",
+            "attempt": 3,
+            "before": "Press",
+            "duration": 0.0001501000951975584,
+            "verification": true
+          },
+          {
+            "action": "invoke",
+            "after": "Press",
+            "attempt": 4,
+            "before": "Press",
+            "duration": 0.0005018999800086021,
+            "verification": true
+          },
+          {
+            "action": "invoke",
+            "after": "Press",
+            "attempt": 5,
+            "before": "Press",
+            "duration": 6.079999729990959e-05,
+            "verification": true
+          }
+        ],
+        "control": "Invoke button",
+        "primitive": "default_action"
+      }
+    ],
+    "child_hwnds": [
+      788674,
+      526532,
+      1312966,
+      2099402,
+      854220,
+      985294,
+      788688,
+      723154,
+      657620,
+      657622,
+      657624,
+      592090,
+      723166,
+      788704
+    ],
+    "controls": [
+      {
+        "class_name": "Static",
+        "control_id": 1,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 788674,
+          "id": "788674:0",
+          "name": "D4 native MSAA fixture",
+          "parent_id": null,
+          "role": "static text",
+          "state": 64,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 788674,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "D4 native MSAA fixture"
+      },
+      {
+        "class_name": "Static",
+        "control_id": 2,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 526532,
+          "id": "526532:0",
+          "name": "Edit value",
+          "parent_id": null,
+          "role": "static text",
+          "state": 64,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 526532,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Edit value"
+      },
+      {
+        "class_name": "Edit",
+        "control_id": 101,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 1312966,
+          "id": "1312966:0",
+          "name": "Edit value",
+          "parent_id": null,
+          "role": "editable text",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": "initial text"
+        },
+        "enabled": true,
+        "hwnd": 1312966,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "initial text"
+      },
+      {
+        "class_name": "Button",
+        "control_id": 102,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": "Press",
+          "description": null,
+          "hwnd": 2099402,
+          "id": "2099402:0",
+          "name": "Invoke button",
+          "parent_id": null,
+          "role": "push button",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 2099402,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "invoke",
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Invoke button"
+      },
+      {
+        "class_name": "Button",
+        "control_id": 103,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": "Check",
+          "description": null,
+          "hwnd": 854220,
+          "id": "854220:0",
+          "name": "Check me",
+          "parent_id": null,
+          "role": "check button",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 854220,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "invoke",
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Check me"
+      },
+      {
+        "class_name": "Button",
+        "control_id": 104,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": "Check",
+          "description": null,
+          "hwnd": 985294,
+          "id": "985294:0",
+          "name": "Radio A",
+          "parent_id": null,
+          "role": "radio button",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 985294,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "invoke",
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Radio A"
+      },
+      {
+        "class_name": "Button",
+        "control_id": 105,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": "Check",
+          "description": null,
+          "hwnd": 788688,
+          "id": "788688:0",
+          "name": "Radio B",
+          "parent_id": null,
+          "role": "radio button",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 788688,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "invoke",
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Radio B"
+      },
+      {
+        "class_name": "ComboBox",
+        "control_id": 106,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 723154,
+          "id": "723154:0",
+          "name": null,
+          "parent_id": null,
+          "role": "combo box",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 723154,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "ComboLBox",
+        "control_id": 1000,
+        "direct_hwnd_provider": {
+          "child_count": 3,
+          "child_id": 0,
+          "children": [
+            "657620:0/1",
+            "657620:0/2",
+            "657620:0/3"
+          ],
+          "default_action": null,
+          "description": null,
+          "hwnd": 657620,
+          "id": "657620:0",
+          "name": null,
+          "parent_id": null,
+          "role": "list",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 657620,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "Edit",
+        "control_id": 1001,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 657622,
+          "id": "657622:0",
+          "name": null,
+          "parent_id": null,
+          "role": "editable text",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 657622,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "ListBox",
+        "control_id": 107,
+        "direct_hwnd_provider": {
+          "child_count": 3,
+          "child_id": 0,
+          "children": [
+            "657624:0/1",
+            "657624:0/2",
+            "657624:0/3"
+          ],
+          "default_action": null,
+          "description": null,
+          "hwnd": 657624,
+          "id": "657624:0",
+          "name": null,
+          "parent_id": null,
+          "role": "list",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 657624,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "SysTreeView32",
+        "control_id": 108,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 592090,
+          "id": "592090:0",
+          "name": null,
+          "parent_id": null,
+          "role": "outline",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 592090,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "SysTabControl32",
+        "control_id": 109,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 723166,
+          "id": "723166:0",
+          "name": null,
+          "parent_id": null,
+          "role": "page tab list",
+          "state": 1048576,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 723166,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": ""
+      },
+      {
+        "class_name": "Static",
+        "control_id": 110,
+        "direct_hwnd_provider": {
+          "child_count": 0,
+          "child_id": 0,
+          "children": [],
+          "default_action": null,
+          "description": null,
+          "hwnd": 788704,
+          "id": "788704:0",
+          "name": "Status: ready",
+          "parent_id": null,
+          "role": "static text",
+          "state": 64,
+          "traversal_error": null,
+          "value": null
+        },
+        "enabled": true,
+        "hwnd": 788704,
+        "parent_hwnd": 6620970,
+        "pid": 17372,
+        "provider_sources": [
+          "direct_hwnd"
+        ],
+        "supported_actions": [
+          "focus",
+          "select"
+        ],
+        "thread_id": 2768,
+        "tree_provider": null,
+        "visible": true,
+        "window_text": "Status: ready"
+      }
+    ],
+    "failures": [],
+    "meaningful_controls": true,
+    "nodes": [
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 6620970,
+        "id": "6620970:0",
+        "name": "D",
+        "parent_id": null,
+        "role": "client",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 788674,
+        "id": "788674:0",
+        "name": "D4 native MSAA fixture",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 526532,
+        "id": "526532:0",
+        "name": "Edit value",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 1312966,
+        "id": "1312966:0",
+        "name": "Edit value",
+        "parent_id": null,
+        "role": "editable text",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": "initial text"
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Press",
+        "description": null,
+        "hwnd": 2099402,
+        "id": "2099402:0",
+        "name": "Invoke button",
+        "parent_id": null,
+        "role": "push button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 854220,
+        "id": "854220:0",
+        "name": "Check me",
+        "parent_id": null,
+        "role": "check button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 985294,
+        "id": "985294:0",
+        "name": "Radio A",
+        "parent_id": null,
+        "role": "radio button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": "Check",
+        "description": null,
+        "hwnd": 788688,
+        "id": "788688:0",
+        "name": "Radio B",
+        "parent_id": null,
+        "role": "radio button",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 723154,
+        "id": "723154:0",
+        "name": null,
+        "parent_id": null,
+        "role": "combo box",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 3,
+        "child_id": 0,
+        "children": [
+          "657620:0/1",
+          "657620:0/2",
+          "657620:0/3"
+        ],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657620,
+        "id": "657620:0",
+        "name": null,
+        "parent_id": null,
+        "role": "list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657622,
+        "id": "657622:0",
+        "name": null,
+        "parent_id": null,
+        "role": "editable text",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 3,
+        "child_id": 0,
+        "children": [
+          "657624:0/1",
+          "657624:0/2",
+          "657624:0/3"
+        ],
+        "default_action": null,
+        "description": null,
+        "hwnd": 657624,
+        "id": "657624:0",
+        "name": null,
+        "parent_id": null,
+        "role": "list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 592090,
+        "id": "592090:0",
+        "name": null,
+        "parent_id": null,
+        "role": "outline",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 723166,
+        "id": "723166:0",
+        "name": null,
+        "parent_id": null,
+        "role": "page tab list",
+        "state": 1048576,
+        "traversal_error": null,
+        "value": null
+      },
+      {
+        "child_count": 0,
+        "child_id": 0,
+        "children": [],
+        "default_action": null,
+        "description": null,
+        "hwnd": 788704,
+        "id": "788704:0",
+        "name": "Status: ready",
+        "parent_id": null,
+        "role": "static text",
+        "state": 64,
+        "traversal_error": null,
+        "value": null
+      }
+    ],
+    "status": "supported",
+    "traversal_errors": [],
+    "window": {
+      "hwnd": 6620970,
+      "pid": 17372,
+      "title": "D"
+    }
+  },
+  "previous_winforms_fixture": {
+    "app": "D4 WinForms Provider-Limitation Fixture",
+    "candidates": [
+      {
+        "enabled": true,
+        "handle": 1509024,
+        "pid": 20148,
+        "rect": [
+          460,
+          160,
+          1460,
+          920
+        ],
+        "title": "D3C UIA Fixture Window",
+        "visible": true
+      }
+    ],
+    "command": [
+      "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\fixtures\\d3c-fixture\\bin\\Release\\net8.0-windows\\D3CUiaFixture.exe"
+    ],
+    "elapsed_seconds": 1.672,
+    "error": null,
+    "launched_pid": 20148,
+    "notes": [
+      "Visible UIA window appeared after launch"
+    ],
+    "process_returncode": null,
+    "selected_handle": 1509024,
+    "selectors_attempted": [
+      "title_re='^D3C UIA Fixture(?: Window)?$'"
+    ],
+    "status": "available"
+  },
+  "previous_winforms_msaa": {
+    "actions": [],
+    "fixture": {
+      "app": "D4 WinForms Provider-Limitation Fixture",
+      "candidates": [
+        {
+          "enabled": true,
+          "handle": 1509024,
+          "pid": 20148,
+          "rect": [
+            460,
+            160,
+            1460,
+            920
+          ],
+          "title": "D3C UIA Fixture Window",
+          "visible": true
+        }
+      ],
+      "command": [
+        "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\fixtures\\d3c-fixture\\bin\\Release\\net8.0-windows\\D3CUiaFixture.exe"
+      ],
+      "elapsed_seconds": 1.672,
+      "error": null,
+      "launched_pid": 20148,
+      "notes": [
+        "Visible UIA window appeared after launch"
+      ],
+      "process_returncode": null,
+      "selected_handle": 1509024,
+      "selectors_attempted": [
+        "title_re='^D3C UIA Fixture(?: Window)?$'"
+      ],
+      "status": "available"
+    },
+    "historical_observation": "The WinForms fixture exposed a repeating/shallow MSAA client surface and no meaningful legacy control tree.",
+    "nodes": [],
+    "status": "fixture_provider_limitation"
+  },
+  "schema_version": 1,
+  "status": "supported",
+  "timings": {
+    "total_seconds": 3.226370899938047
+  },
+  "uia_comparison": {
+    "controls": [
+      {
+        "class_name": "Static",
+        "control_type": "Text",
+        "framework_id": "Win32",
+        "handle": 788674,
+        "name": "D4 native MSAA fixture",
+        "pid": 17372
+      },
+      {
+        "class_name": "Static",
+        "control_type": "Text",
+        "framework_id": "Win32",
+        "handle": 526532,
+        "name": "Edit value",
+        "pid": 17372
+      },
+      {
+        "class_name": "Edit",
+        "control_type": "Edit",
+        "framework_id": "Win32",
+        "handle": 1312966,
+        "name": "Edit value",
+        "pid": 17372
+      },
+      {
+        "class_name": "Button",
+        "control_type": "Button",
+        "framework_id": "Win32",
+        "handle": 2099402,
+        "name": "Invoke button",
+        "pid": 17372
+      },
+      {
+        "class_name": "Button",
+        "control_type": "CheckBox",
+        "framework_id": "Win32",
+        "handle": 854220,
+        "name": "Check me",
+        "pid": 17372
+      },
+      {
+        "class_name": "Button",
+        "control_type": "RadioButton",
+        "framework_id": "Win32",
+        "handle": 985294,
+        "name": "Radio A",
+        "pid": 17372
+      },
+      {
+        "class_name": "Button",
+        "control_type": "RadioButton",
+        "framework_id": "Win32",
+        "handle": 788688,
+        "name": "Radio B",
+        "pid": 17372
+      },
+      {
+        "class_name": "ComboBox",
+        "control_type": "ComboBox",
+        "framework_id": "Win32",
+        "handle": 723154,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "ComboLBox",
+        "control_type": "List",
+        "framework_id": "Win32",
+        "handle": 657620,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "Choice A",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "Choice B",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "Choice C",
+        "pid": 17372
+      },
+      {
+        "class_name": "Edit",
+        "control_type": "Edit",
+        "framework_id": "Win32",
+        "handle": 657622,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "ListBox",
+        "control_type": "List",
+        "framework_id": "Win32",
+        "handle": 657624,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "List A",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "List B",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "ListItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "List C",
+        "pid": 17372
+      },
+      {
+        "class_name": "SysTreeView32",
+        "control_type": "Tree",
+        "framework_id": "Win32",
+        "handle": 592090,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "SysTabControl32",
+        "control_type": "Tab",
+        "framework_id": "Win32",
+        "handle": 723166,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "Static",
+        "control_type": "Text",
+        "framework_id": "Win32",
+        "handle": 788704,
+        "name": "Status: ready",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "TitleBar",
+        "framework_id": "",
+        "handle": null,
+        "name": "",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "MenuBar",
+        "framework_id": "",
+        "handle": null,
+        "name": "System",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "MenuItem",
+        "framework_id": "",
+        "handle": null,
+        "name": "System",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "Button",
+        "framework_id": "",
+        "handle": null,
+        "name": "Minimize",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "Button",
+        "framework_id": "",
+        "handle": null,
+        "name": "Maximize",
+        "pid": 17372
+      },
+      {
+        "class_name": "",
+        "control_type": "Button",
+        "framework_id": "",
+        "handle": null,
+        "name": "Close",
+        "pid": 17372
+      }
+    ],
+    "status": "supported"
+  }
+}

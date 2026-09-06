@@ -1,0 +1,3977 @@
+{
+  "actions": [
+    {
+      "action": "SetValue('D3C_TEXT_1496571518845900')",
+      "after": "D3C_TEXT_1496571518845900",
+      "before": "initial text",
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.016917099943384528,
+      "error": null,
+      "expected": "D3C_TEXT_1496571518845900",
+      "primitive": "ValuePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetValue('D3C_TEXT_1496571639975400')",
+      "after": "D3C_TEXT_1496571639975400",
+      "before": "D3C_TEXT_1496571518845900",
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0014208999928086996,
+      "error": null,
+      "expected": "D3C_TEXT_1496571639975400",
+      "primitive": "ValuePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetValue('D3C_TEXT_1496571758537700')",
+      "after": "D3C_TEXT_1496571758537700",
+      "before": "D3C_TEXT_1496571639975400",
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0020951000042259693,
+      "error": null,
+      "expected": "D3C_TEXT_1496571758537700",
+      "primitive": "ValuePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetValue('D3C_TEXT_1496571894584900')",
+      "after": "D3C_TEXT_1496571894584900",
+      "before": "D3C_TEXT_1496571758537700",
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0024965000338852406,
+      "error": null,
+      "expected": "D3C_TEXT_1496571894584900",
+      "primitive": "ValuePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetValue('D3C_TEXT_1496572065254500')",
+      "after": "D3C_TEXT_1496572065254500",
+      "before": "D3C_TEXT_1496571894584900",
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0024947000201791525,
+      "error": null,
+      "expected": "D3C_TEXT_1496572065254500",
+      "primitive": "ValuePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetFocus()",
+      "after": 1,
+      "before": 1,
+      "control": "D3C text input",
+      "control_metadata": {
+        "auto_id": "D3C_TextBox",
+        "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+        "control_type": "Edit",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 3934178,
+        "name": "D3C text input",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          3934178
+        ],
+        "visible": true
+      },
+      "diagnostic": {
+        "control_identity": {
+          "auto_id": "D3C_TextBox",
+          "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+          "control_type": "Edit",
+          "enabled": true,
+          "framework_id": "WinForm",
+          "handle": 3934178,
+          "name": "D3C text input",
+          "pid": 23780,
+          "runtime_id": [
+            42,
+            3934178
+          ],
+          "visible": true
+        },
+        "focus_state_after_wait": 1,
+        "focus_state_before": 1,
+        "focus_state_immediate": 1,
+        "result": "VERIFIED",
+        "verification_method": "IUIAutomationElement.CurrentHasKeyboardFocus",
+        "wait_seconds": 0.0022841000463813543
+      },
+      "elapsed_seconds": 0.002814199775457382,
+      "error": null,
+      "expected": true,
+      "primitive": "Focus",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C invoke button",
+      "control_metadata": {
+        "auto_id": "D3C_InvokeButton",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "Button",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 132512,
+        "name": "D3C invoke button",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          132512
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.3565158999990672,
+      "error": null,
+      "expected": "Button invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C invoke button",
+      "control_metadata": {
+        "auto_id": "D3C_InvokeButton",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "Button",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 132512,
+        "name": "D3C invoke button",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          132512
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.38145940005779266,
+      "error": null,
+      "expected": "Button invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C invoke button",
+      "control_metadata": {
+        "auto_id": "D3C_InvokeButton",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "Button",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 132512,
+        "name": "D3C invoke button",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          132512
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.42738229990936816,
+      "error": null,
+      "expected": "Button invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C invoke button",
+      "control_metadata": {
+        "auto_id": "D3C_InvokeButton",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "Button",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 132512,
+        "name": "D3C invoke button",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          132512
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.3410135000012815,
+      "error": null,
+      "expected": "Button invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C invoke button",
+      "control_metadata": {
+        "auto_id": "D3C_InvokeButton",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "Button",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 132512,
+        "name": "D3C invoke button",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          132512
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.30873709986917675,
+      "error": null,
+      "expected": "Button invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Toggle()",
+      "after": 0,
+      "before": 1,
+      "control": "D3C checkbox toggle",
+      "control_metadata": {
+        "auto_id": "D3C_CheckBox",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "CheckBox",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 2557788,
+        "name": "D3C checkbox toggle",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2557788
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0033862001728266478,
+      "error": null,
+      "expected": "changed",
+      "primitive": "TogglePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Toggle()",
+      "after": 0,
+      "before": 1,
+      "control": "D3C checkbox toggle",
+      "control_metadata": {
+        "auto_id": "D3C_CheckBox",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "CheckBox",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 2557788,
+        "name": "D3C checkbox toggle",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2557788
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0027648000977933407,
+      "error": null,
+      "expected": "changed",
+      "primitive": "TogglePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Toggle()",
+      "after": 0,
+      "before": 1,
+      "control": "D3C checkbox toggle",
+      "control_metadata": {
+        "auto_id": "D3C_CheckBox",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "CheckBox",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 2557788,
+        "name": "D3C checkbox toggle",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2557788
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0032512000761926174,
+      "error": null,
+      "expected": "changed",
+      "primitive": "TogglePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Toggle()",
+      "after": 0,
+      "before": 1,
+      "control": "D3C checkbox toggle",
+      "control_metadata": {
+        "auto_id": "D3C_CheckBox",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "CheckBox",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 2557788,
+        "name": "D3C checkbox toggle",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2557788
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.004063900094479322,
+      "error": null,
+      "expected": "changed",
+      "primitive": "TogglePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Toggle()",
+      "after": 0,
+      "before": 1,
+      "control": "D3C checkbox toggle",
+      "control_metadata": {
+        "auto_id": "D3C_CheckBox",
+        "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+        "control_type": "CheckBox",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 2557788,
+        "name": "D3C checkbox toggle",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2557788
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.003996700048446655,
+      "error": null,
+      "expected": "changed",
+      "primitive": "TogglePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 0,
+      "control": "Blue",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Blue",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2033580,
+          41962596,
+          43527150
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.009182000067085028,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Blue",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Blue",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2033580,
+          41962596,
+          43527150
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.004647199995815754,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Blue",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Blue",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2033580,
+          41962596,
+          43527150
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0038933998439460993,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Blue",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Blue",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2033580,
+          41962596,
+          43527150
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.002925100037828088,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Blue",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Blue",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          2033580,
+          41962596,
+          43527150
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0031558999326080084,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 0,
+      "control": "Beta",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Beta",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          526428,
+          30015890,
+          1707556
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.018349400022998452,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Beta",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Beta",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          526428,
+          30015890,
+          1707556
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.003979700151830912,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Beta",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Beta",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          526428,
+          30015890,
+          1707556
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0035510000307112932,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Beta",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Beta",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          526428,
+          30015890,
+          1707556
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.004100800026208162,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Beta",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "ListItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Beta",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          526428,
+          30015890,
+          1707556
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0034767999313771725,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Expand()",
+      "after": 1,
+      "before": 0,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.019703199854120612,
+      "error": null,
+      "expected": 1,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Expand()",
+      "after": 1,
+      "before": 1,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.003328199964016676,
+      "error": null,
+      "expected": 1,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Expand()",
+      "after": 1,
+      "before": 1,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0029655001126229763,
+      "error": null,
+      "expected": 1,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Expand()",
+      "after": 1,
+      "before": 1,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0023726001381874084,
+      "error": null,
+      "expected": 1,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Expand()",
+      "after": 1,
+      "before": 1,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.002682599937543273,
+      "error": null,
+      "expected": 1,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Collapse()",
+      "after": 0,
+      "before": 1,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.004663999890908599,
+      "error": null,
+      "expected": 0,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Collapse()",
+      "after": 0,
+      "before": 0,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.003625399898737669,
+      "error": null,
+      "expected": 0,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Collapse()",
+      "after": 0,
+      "before": 0,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0028170000296086073,
+      "error": null,
+      "expected": 0,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Collapse()",
+      "after": 0,
+      "before": 0,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0026693001855164766,
+      "error": null,
+      "expected": 0,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Collapse()",
+      "after": 0,
+      "before": 0,
+      "control": "Root",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "TreeItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Root",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1837170,
+          33574638
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.003226000117138028,
+      "error": null,
+      "expected": 0,
+      "primitive": "ExpandCollapsePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 0,
+      "control": "Second",
+      "control_metadata": {
+        "auto_id": "D3C_SecondTab",
+        "class_name": "",
+        "control_type": "TabItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Second",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          985230,
+          36849274
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.015871499897912145,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Second",
+      "control_metadata": {
+        "auto_id": "D3C_SecondTab",
+        "class_name": "",
+        "control_type": "TabItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Second",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          985230,
+          36849274
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.002404899802058935,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Second",
+      "control_metadata": {
+        "auto_id": "D3C_SecondTab",
+        "class_name": "",
+        "control_type": "TabItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Second",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          985230,
+          36849274
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0022364999167621136,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Second",
+      "control_metadata": {
+        "auto_id": "D3C_SecondTab",
+        "class_name": "",
+        "control_type": "TabItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Second",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          985230,
+          36849274
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.002498999936506152,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Select()",
+      "after": 1,
+      "before": 1,
+      "control": "Second",
+      "control_metadata": {
+        "auto_id": "D3C_SecondTab",
+        "class_name": "",
+        "control_type": "TabItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "Second",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          985230,
+          36849274
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.002063299994915724,
+      "error": null,
+      "expected": true,
+      "primitive": "SelectionItemPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C safe menu action",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "MenuItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "D3C safe menu action",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1443606,
+          4,
+          32001227
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.26380009995773435,
+      "error": null,
+      "expected": "Menu invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C safe menu action",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "MenuItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "D3C safe menu action",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1443606,
+          4,
+          32001227
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.2463491999078542,
+      "error": null,
+      "expected": "Menu invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C safe menu action",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "MenuItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "D3C safe menu action",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1443606,
+          4,
+          32001227
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.23463289998471737,
+      "error": null,
+      "expected": "Menu invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C safe menu action",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "MenuItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "D3C safe menu action",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1443606,
+          4,
+          32001227
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.43932670005597174,
+      "error": null,
+      "expected": "Menu invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "Invoke()",
+      "after": "Fixture state value",
+      "before": null,
+      "control": "D3C safe menu action",
+      "control_metadata": {
+        "auto_id": "",
+        "class_name": "",
+        "control_type": "MenuItem",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": null,
+        "name": "D3C safe menu action",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          1443606,
+          4,
+          32001227
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.5154275000095367,
+      "error": null,
+      "expected": "Menu invoked",
+      "primitive": "InvokePattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetScrollPercent(0, 100.0)",
+      "after": 100.0,
+      "before": 0.0,
+      "control": "D3C scroll region",
+      "control_metadata": {
+        "auto_id": "D3C_ScrollViewer",
+        "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+        "control_type": "Pane",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 524414,
+        "name": "D3C scroll region",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          524414
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.20018310006707907,
+      "error": null,
+      "expected": 100.0,
+      "primitive": "ScrollPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetScrollPercent(0, 100.0)",
+      "after": 100.0,
+      "before": 100.0,
+      "control": "D3C scroll region",
+      "control_metadata": {
+        "auto_id": "D3C_ScrollViewer",
+        "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+        "control_type": "Pane",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 524414,
+        "name": "D3C scroll region",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          524414
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0022186001297086477,
+      "error": null,
+      "expected": 100.0,
+      "primitive": "ScrollPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetScrollPercent(0, 100.0)",
+      "after": 100.0,
+      "before": 100.0,
+      "control": "D3C scroll region",
+      "control_metadata": {
+        "auto_id": "D3C_ScrollViewer",
+        "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+        "control_type": "Pane",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 524414,
+        "name": "D3C scroll region",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          524414
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0009562000632286072,
+      "error": null,
+      "expected": 100.0,
+      "primitive": "ScrollPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetScrollPercent(0, 100.0)",
+      "after": 100.0,
+      "before": 100.0,
+      "control": "D3C scroll region",
+      "control_metadata": {
+        "auto_id": "D3C_ScrollViewer",
+        "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+        "control_type": "Pane",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 524414,
+        "name": "D3C scroll region",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          524414
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0016299998387694359,
+      "error": null,
+      "expected": 100.0,
+      "primitive": "ScrollPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    },
+    {
+      "action": "SetScrollPercent(0, 100.0)",
+      "after": 100.0,
+      "before": 100.0,
+      "control": "D3C scroll region",
+      "control_metadata": {
+        "auto_id": "D3C_ScrollViewer",
+        "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+        "control_type": "Pane",
+        "enabled": true,
+        "framework_id": "WinForm",
+        "handle": 524414,
+        "name": "D3C scroll region",
+        "pid": 23780,
+        "runtime_id": [
+          42,
+          524414
+        ],
+        "visible": true
+      },
+      "diagnostic": null,
+      "elapsed_seconds": 0.0009788998868316412,
+      "error": null,
+      "expected": 100.0,
+      "primitive": "ScrollPattern",
+      "status": "SUPPORTED",
+      "verification": "PASS"
+    }
+  ],
+  "controls": [
+    {
+      "auto_id": "D3C_MainLayout",
+      "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+      "control_type": "Pane",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1443160,
+      "name": "",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1443160
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_StatusLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 10291322,
+      "name": "D3C_StatusLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        10291322
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_StateValue",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 5048416,
+      "name": "Fixture state value",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        5048416
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TextLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 4261692,
+      "name": "D3C_TextLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        4261692
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TextBox",
+      "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+      "control_type": "Edit",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 3934178,
+      "name": "D3C text input",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        3934178
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ButtonLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 263582,
+      "name": "D3C_ButtonLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        263582
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_InvokeButton",
+      "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 132512,
+      "name": "D3C invoke button",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        132512
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_CheckLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 132514,
+      "name": "D3C_CheckLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        132514
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_CheckBox",
+      "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+      "control_type": "CheckBox",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 2557788,
+      "name": "D3C checkbox toggle",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2557788
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ComboLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1705282,
+      "name": "D3C_ComboLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1705282
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ComboBox",
+      "class_name": "WindowsForms10.ComboBox.app.0.378734a_r3_ad1",
+      "control_type": "ComboBox",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 2033580,
+      "name": "D3C combo selection",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2033580
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "D3C combo selection",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2033580,
+        9799115,
+        21083178,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Open",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2033580,
+        9799115,
+        61453,
+        2
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ListLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 919478,
+      "name": "D3C_ListLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        919478
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ListBox",
+      "class_name": "WindowsForms10.ListBox.app.0.378734a_r3_ad1",
+      "control_type": "List",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 526428,
+      "name": "D3C list selection",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        526428
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "ListItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Alpha",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        526428,
+        30015890,
+        55530882
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "ListItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Beta",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        526428,
+        30015890,
+        1707556
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "ListItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Gamma",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        526428,
+        30015890,
+        15368010
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TreeLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 655470,
+      "name": "D3C_TreeLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        655470
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TreeView",
+      "class_name": "WindowsForms10.SysTreeView32.app.0.378734a_r3_ad1",
+      "control_type": "Tree",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1837170,
+      "name": "D3C tree navigation",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1837170
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "TreeItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Root",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1837170,
+        33574638
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TabLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 723064,
+      "name": "D3C_TabLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        723064
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_TabControl",
+      "class_name": "WindowsForms10.SysTabControl32.app.0.378734a_r3_ad1",
+      "control_type": "Tab",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 985230,
+      "name": "D3C tab selection",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        985230
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_FirstTab",
+      "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+      "control_type": "Pane",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 6555434,
+      "name": "First",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        6555434
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_FirstTab",
+      "class_name": "",
+      "control_type": "TabItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "First",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        985230,
+        4094363
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_SecondTab",
+      "class_name": "",
+      "control_type": "TabItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "Second",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        985230,
+        36849274
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollLabel",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 591980,
+      "name": "D3C_ScrollLabel",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        591980
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollViewer",
+      "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+      "control_type": "Pane",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 524414,
+      "name": "D3C scroll region",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_0",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 3213280,
+      "name": "D3C scroll text 0",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        3213280
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_1",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1968130,
+      "name": "D3C scroll text 1",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1968130
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_2",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 460806,
+      "name": "D3C scroll text 2",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        460806
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_3",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1247344,
+      "name": "D3C scroll text 3",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1247344
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_4",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1312778,
+      "name": "D3C scroll text 4",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1312778
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_5",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1509372,
+      "name": "D3C scroll text 5",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1509372
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_6",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 2164736,
+      "name": "D3C scroll text 6",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2164736
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_7",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 919566,
+      "name": "D3C scroll text 7",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        919566
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_8",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 4655122,
+      "name": "D3C scroll text 8",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        4655122
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_9",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 3606548,
+      "name": "D3C scroll text 9",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        3606548
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_10",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1771542,
+      "name": "D3C scroll text 10",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1771542
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_11",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1968154,
+      "name": "D3C scroll text 11",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1968154
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_12",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 2951196,
+      "name": "D3C scroll text 12",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        2951196
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_13",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 11274036,
+      "name": "D3C scroll text 13",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        11274036
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_ScrollText_14",
+      "class_name": "WindowsForms10.Static.app.0.378734a_r3_ad1",
+      "control_type": "Text",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 4786224,
+      "name": "D3C scroll text 14",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        4786224
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "NonClientVerticalScrollBar",
+      "class_name": "",
+      "control_type": "ScrollBar",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Vertical",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414,
+        3,
+        -2147483647,
+        524414,
+        -5,
+        0
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "UpButton",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Line up",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414,
+        3,
+        -2147483647,
+        524414,
+        -5,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "ScrollbarThumb",
+      "class_name": "",
+      "control_type": "Thumb",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Position",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414,
+        3,
+        -2147483647,
+        524414,
+        -5,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "DownPageButton",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Page down",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414,
+        3,
+        -2147483647,
+        524414,
+        -5,
+        4
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "DownButton",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Line down",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        524414,
+        3,
+        -2147483647,
+        524414,
+        -5,
+        5
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "D3C_Menu",
+      "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+      "control_type": "MenuBar",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": 1443606,
+      "name": "Scrollable fixture row 14",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1443606
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "MenuItem",
+      "enabled": true,
+      "framework_id": "WinForm",
+      "handle": null,
+      "name": "D3C safe menu action",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        1443606,
+        4,
+        32001227
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "TitleBar",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483647,
+        7014506,
+        -2,
+        0
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "MenuBar",
+      "class_name": "",
+      "control_type": "MenuBar",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "System",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483646,
+        23780,
+        68683685,
+        0
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "MenuItem",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "System",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483646,
+        11188,
+        68683685,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Minimize",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483647,
+        7014506,
+        -2,
+        2
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Maximize",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483647,
+        7014506,
+        -2,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "auto_id": "",
+      "class_name": "",
+      "control_type": "Button",
+      "enabled": true,
+      "framework_id": "",
+      "handle": null,
+      "name": "Close",
+      "pid": 23780,
+      "runtime_id": [
+        42,
+        7014506,
+        3,
+        -2147483647,
+        7014506,
+        -2,
+        5
+      ],
+      "visible": true
+    }
+  ],
+  "failures": [],
+  "fixture": {
+    "app": "D3C UIA Fixture",
+    "candidates": [
+      {
+        "enabled": true,
+        "handle": 7014506,
+        "pid": 23780,
+        "rect": [
+          460,
+          160,
+          1460,
+          920
+        ],
+        "title": "D3C UIA Fixture Window",
+        "visible": true
+      }
+    ],
+    "command": [
+      "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\fixtures\\d3c-fixture\\bin\\Release\\net8.0-windows\\D3CUiaFixture.exe"
+    ],
+    "elapsed_seconds": 0.643,
+    "error": null,
+    "launched_pid": 23780,
+    "notes": [
+      "Visible UIA window appeared after launch"
+    ],
+    "process_returncode": null,
+    "selected_handle": 7014506,
+    "selectors_attempted": [
+      "title_re='^D3C UIA Fixture(?: Window)?$'"
+    ],
+    "status": "available"
+  },
+  "repeatability": [
+    {
+      "failed": 0,
+      "operation": "text_write_read",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "SetValue('D3C_TEXT_1496571518845900')",
+          "after": "D3C_TEXT_1496571518845900",
+          "before": "initial text",
+          "control": "D3C text input",
+          "control_metadata": {
+            "auto_id": "D3C_TextBox",
+            "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+            "control_type": "Edit",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 3934178,
+            "name": "D3C text input",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              3934178
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.016917099943384528,
+          "error": null,
+          "expected": "D3C_TEXT_1496571518845900",
+          "primitive": "ValuePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetValue('D3C_TEXT_1496571639975400')",
+          "after": "D3C_TEXT_1496571639975400",
+          "before": "D3C_TEXT_1496571518845900",
+          "control": "D3C text input",
+          "control_metadata": {
+            "auto_id": "D3C_TextBox",
+            "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+            "control_type": "Edit",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 3934178,
+            "name": "D3C text input",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              3934178
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0014208999928086996,
+          "error": null,
+          "expected": "D3C_TEXT_1496571639975400",
+          "primitive": "ValuePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetValue('D3C_TEXT_1496571758537700')",
+          "after": "D3C_TEXT_1496571758537700",
+          "before": "D3C_TEXT_1496571639975400",
+          "control": "D3C text input",
+          "control_metadata": {
+            "auto_id": "D3C_TextBox",
+            "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+            "control_type": "Edit",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 3934178,
+            "name": "D3C text input",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              3934178
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0020951000042259693,
+          "error": null,
+          "expected": "D3C_TEXT_1496571758537700",
+          "primitive": "ValuePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetValue('D3C_TEXT_1496571894584900')",
+          "after": "D3C_TEXT_1496571894584900",
+          "before": "D3C_TEXT_1496571758537700",
+          "control": "D3C text input",
+          "control_metadata": {
+            "auto_id": "D3C_TextBox",
+            "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+            "control_type": "Edit",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 3934178,
+            "name": "D3C text input",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              3934178
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0024965000338852406,
+          "error": null,
+          "expected": "D3C_TEXT_1496571894584900",
+          "primitive": "ValuePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetValue('D3C_TEXT_1496572065254500')",
+          "after": "D3C_TEXT_1496572065254500",
+          "before": "D3C_TEXT_1496571894584900",
+          "control": "D3C text input",
+          "control_metadata": {
+            "auto_id": "D3C_TextBox",
+            "class_name": "WindowsForms10.Edit.app.0.378734a_r3_ad1",
+            "control_type": "Edit",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 3934178,
+            "name": "D3C text input",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              3934178
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0024947000201791525,
+          "error": null,
+          "expected": "D3C_TEXT_1496572065254500",
+          "primitive": "ValuePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "button_invoke",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C invoke button",
+          "control_metadata": {
+            "auto_id": "D3C_InvokeButton",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "Button",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 132512,
+            "name": "D3C invoke button",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              132512
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.3565158999990672,
+          "error": null,
+          "expected": "Button invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C invoke button",
+          "control_metadata": {
+            "auto_id": "D3C_InvokeButton",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "Button",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 132512,
+            "name": "D3C invoke button",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              132512
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.38145940005779266,
+          "error": null,
+          "expected": "Button invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C invoke button",
+          "control_metadata": {
+            "auto_id": "D3C_InvokeButton",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "Button",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 132512,
+            "name": "D3C invoke button",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              132512
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.42738229990936816,
+          "error": null,
+          "expected": "Button invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C invoke button",
+          "control_metadata": {
+            "auto_id": "D3C_InvokeButton",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "Button",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 132512,
+            "name": "D3C invoke button",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              132512
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.3410135000012815,
+          "error": null,
+          "expected": "Button invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C invoke button",
+          "control_metadata": {
+            "auto_id": "D3C_InvokeButton",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "Button",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 132512,
+            "name": "D3C invoke button",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              132512
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.30873709986917675,
+          "error": null,
+          "expected": "Button invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "checkbox_toggle_round_trip",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Toggle()",
+          "after": 0,
+          "before": 1,
+          "control": "D3C checkbox toggle",
+          "control_metadata": {
+            "auto_id": "D3C_CheckBox",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "CheckBox",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 2557788,
+            "name": "D3C checkbox toggle",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2557788
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0033862001728266478,
+          "error": null,
+          "expected": "changed",
+          "primitive": "TogglePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Toggle()",
+          "after": 0,
+          "before": 1,
+          "control": "D3C checkbox toggle",
+          "control_metadata": {
+            "auto_id": "D3C_CheckBox",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "CheckBox",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 2557788,
+            "name": "D3C checkbox toggle",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2557788
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0027648000977933407,
+          "error": null,
+          "expected": "changed",
+          "primitive": "TogglePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Toggle()",
+          "after": 0,
+          "before": 1,
+          "control": "D3C checkbox toggle",
+          "control_metadata": {
+            "auto_id": "D3C_CheckBox",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "CheckBox",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 2557788,
+            "name": "D3C checkbox toggle",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2557788
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0032512000761926174,
+          "error": null,
+          "expected": "changed",
+          "primitive": "TogglePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Toggle()",
+          "after": 0,
+          "before": 1,
+          "control": "D3C checkbox toggle",
+          "control_metadata": {
+            "auto_id": "D3C_CheckBox",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "CheckBox",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 2557788,
+            "name": "D3C checkbox toggle",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2557788
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.004063900094479322,
+          "error": null,
+          "expected": "changed",
+          "primitive": "TogglePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Toggle()",
+          "after": 0,
+          "before": 1,
+          "control": "D3C checkbox toggle",
+          "control_metadata": {
+            "auto_id": "D3C_CheckBox",
+            "class_name": "WindowsForms10.Button.app.0.378734a_r3_ad1",
+            "control_type": "CheckBox",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 2557788,
+            "name": "D3C checkbox toggle",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2557788
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.003996700048446655,
+          "error": null,
+          "expected": "changed",
+          "primitive": "TogglePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "combo_selection",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 0,
+          "control": "Blue",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Blue",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2033580,
+              41962596,
+              43527150
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.009182000067085028,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Blue",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Blue",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2033580,
+              41962596,
+              43527150
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.004647199995815754,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Blue",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Blue",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2033580,
+              41962596,
+              43527150
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0038933998439460993,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Blue",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Blue",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2033580,
+              41962596,
+              43527150
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.002925100037828088,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Blue",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Blue",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              2033580,
+              41962596,
+              43527150
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0031558999326080084,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "list_selection",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 0,
+          "control": "Beta",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Beta",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              526428,
+              30015890,
+              1707556
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.018349400022998452,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Beta",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Beta",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              526428,
+              30015890,
+              1707556
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.003979700151830912,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Beta",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Beta",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              526428,
+              30015890,
+              1707556
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0035510000307112932,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Beta",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Beta",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              526428,
+              30015890,
+              1707556
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.004100800026208162,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Beta",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "ListItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Beta",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              526428,
+              30015890,
+              1707556
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0034767999313771725,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "tree_expand",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Expand()",
+          "after": 1,
+          "before": 0,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.019703199854120612,
+          "error": null,
+          "expected": 1,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Expand()",
+          "after": 1,
+          "before": 1,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.003328199964016676,
+          "error": null,
+          "expected": 1,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Expand()",
+          "after": 1,
+          "before": 1,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0029655001126229763,
+          "error": null,
+          "expected": 1,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Expand()",
+          "after": 1,
+          "before": 1,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0023726001381874084,
+          "error": null,
+          "expected": 1,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Expand()",
+          "after": 1,
+          "before": 1,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.002682599937543273,
+          "error": null,
+          "expected": 1,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "tree_collapse",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Collapse()",
+          "after": 0,
+          "before": 1,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.004663999890908599,
+          "error": null,
+          "expected": 0,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Collapse()",
+          "after": 0,
+          "before": 0,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.003625399898737669,
+          "error": null,
+          "expected": 0,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Collapse()",
+          "after": 0,
+          "before": 0,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0028170000296086073,
+          "error": null,
+          "expected": 0,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Collapse()",
+          "after": 0,
+          "before": 0,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0026693001855164766,
+          "error": null,
+          "expected": 0,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Collapse()",
+          "after": 0,
+          "before": 0,
+          "control": "Root",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "TreeItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Root",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1837170,
+              33574638
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.003226000117138028,
+          "error": null,
+          "expected": 0,
+          "primitive": "ExpandCollapsePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "tab_selection",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 0,
+          "control": "Second",
+          "control_metadata": {
+            "auto_id": "D3C_SecondTab",
+            "class_name": "",
+            "control_type": "TabItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Second",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              985230,
+              36849274
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.015871499897912145,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Second",
+          "control_metadata": {
+            "auto_id": "D3C_SecondTab",
+            "class_name": "",
+            "control_type": "TabItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Second",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              985230,
+              36849274
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.002404899802058935,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Second",
+          "control_metadata": {
+            "auto_id": "D3C_SecondTab",
+            "class_name": "",
+            "control_type": "TabItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Second",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              985230,
+              36849274
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0022364999167621136,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Second",
+          "control_metadata": {
+            "auto_id": "D3C_SecondTab",
+            "class_name": "",
+            "control_type": "TabItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Second",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              985230,
+              36849274
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.002498999936506152,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Select()",
+          "after": 1,
+          "before": 1,
+          "control": "Second",
+          "control_metadata": {
+            "auto_id": "D3C_SecondTab",
+            "class_name": "",
+            "control_type": "TabItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "Second",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              985230,
+              36849274
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.002063299994915724,
+          "error": null,
+          "expected": true,
+          "primitive": "SelectionItemPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "menu_invoke",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C safe menu action",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "MenuItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "D3C safe menu action",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1443606,
+              4,
+              32001227
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.26380009995773435,
+          "error": null,
+          "expected": "Menu invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C safe menu action",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "MenuItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "D3C safe menu action",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1443606,
+              4,
+              32001227
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.2463491999078542,
+          "error": null,
+          "expected": "Menu invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C safe menu action",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "MenuItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "D3C safe menu action",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1443606,
+              4,
+              32001227
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.23463289998471737,
+          "error": null,
+          "expected": "Menu invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C safe menu action",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "MenuItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "D3C safe menu action",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1443606,
+              4,
+              32001227
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.43932670005597174,
+          "error": null,
+          "expected": "Menu invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "Invoke()",
+          "after": "Fixture state value",
+          "before": null,
+          "control": "D3C safe menu action",
+          "control_metadata": {
+            "auto_id": "",
+            "class_name": "",
+            "control_type": "MenuItem",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": null,
+            "name": "D3C safe menu action",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              1443606,
+              4,
+              32001227
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.5154275000095367,
+          "error": null,
+          "expected": "Menu invoked",
+          "primitive": "InvokePattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    },
+    {
+      "failed": 0,
+      "operation": "scroll",
+      "passed": 5,
+      "repetitions": 5,
+      "results": [
+        {
+          "action": "SetScrollPercent(0, 100.0)",
+          "after": 100.0,
+          "before": 0.0,
+          "control": "D3C scroll region",
+          "control_metadata": {
+            "auto_id": "D3C_ScrollViewer",
+            "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+            "control_type": "Pane",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 524414,
+            "name": "D3C scroll region",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              524414
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.20018310006707907,
+          "error": null,
+          "expected": 100.0,
+          "primitive": "ScrollPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetScrollPercent(0, 100.0)",
+          "after": 100.0,
+          "before": 100.0,
+          "control": "D3C scroll region",
+          "control_metadata": {
+            "auto_id": "D3C_ScrollViewer",
+            "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+            "control_type": "Pane",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 524414,
+            "name": "D3C scroll region",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              524414
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0022186001297086477,
+          "error": null,
+          "expected": 100.0,
+          "primitive": "ScrollPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetScrollPercent(0, 100.0)",
+          "after": 100.0,
+          "before": 100.0,
+          "control": "D3C scroll region",
+          "control_metadata": {
+            "auto_id": "D3C_ScrollViewer",
+            "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+            "control_type": "Pane",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 524414,
+            "name": "D3C scroll region",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              524414
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0009562000632286072,
+          "error": null,
+          "expected": 100.0,
+          "primitive": "ScrollPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetScrollPercent(0, 100.0)",
+          "after": 100.0,
+          "before": 100.0,
+          "control": "D3C scroll region",
+          "control_metadata": {
+            "auto_id": "D3C_ScrollViewer",
+            "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+            "control_type": "Pane",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 524414,
+            "name": "D3C scroll region",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              524414
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0016299998387694359,
+          "error": null,
+          "expected": 100.0,
+          "primitive": "ScrollPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        },
+        {
+          "action": "SetScrollPercent(0, 100.0)",
+          "after": 100.0,
+          "before": 100.0,
+          "control": "D3C scroll region",
+          "control_metadata": {
+            "auto_id": "D3C_ScrollViewer",
+            "class_name": "WindowsForms10.Window.8.app.0.378734a_r3_ad1",
+            "control_type": "Pane",
+            "enabled": true,
+            "framework_id": "WinForm",
+            "handle": 524414,
+            "name": "D3C scroll region",
+            "pid": 23780,
+            "runtime_id": [
+              42,
+              524414
+            ],
+            "visible": true
+          },
+          "diagnostic": null,
+          "elapsed_seconds": 0.0009788998868316412,
+          "error": null,
+          "expected": 100.0,
+          "primitive": "ScrollPattern",
+          "status": "SUPPORTED",
+          "verification": "PASS"
+        }
+      ]
+    }
+  ],
+  "timings": {
+    "total": 25.067573399981484
+  }
+}

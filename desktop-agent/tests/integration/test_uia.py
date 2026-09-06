@@ -7,11 +7,12 @@ from pathlib import Path
 from uuid import uuid4
 
 
-TEST_DIR = Path(__file__).resolve().parent
-if str(TEST_DIR) not in sys.path:
-    sys.path.insert(0, str(TEST_DIR))
+PACKAGE_ROOT = Path(__file__).resolve().parents[2]
+if str(PACKAGE_ROOT) not in sys.path:
+    sys.path.insert(0, str(PACKAGE_ROOT))
 
-from uia import UIAAdapter, UIAError, WindowCandidate
+from desktop_agent.providers.uia import UIAAdapter, UIAError, WindowCandidate
+from desktop_agent.fixtures.uia import FIXTURE_TARGETS, FixtureStatus, UIAFixtureManager
 
 
 NOTEPAD_TITLE_RE = r".*Notepad.*"
@@ -490,25 +491,41 @@ def run_suite() -> int:
 
     print()
     print("REAL UIA INTEGRATION:")
-    candidates = _adapter().list_window_candidates(NOTEPAD_TITLE_RE)
-    if not candidates:
-        print("BLOCKED - environment exposes zero Notepad windows")
-        integration_failures = 0
-        integration_blocked = True
-    else:
-        print(f"LIVE CANDIDATE COUNT: {len(candidates)}")
-        for index, candidate in enumerate(candidates):
-            print(
-                f"LIVE WINDOW[{index}]: title={candidate.title!r} pid={candidate.pid} "
-                f"handle={candidate.handle} rect={candidate.rect} "
-                f"visible={candidate.visible} enabled={candidate.enabled}"
-            )
-        integration_failures = _run_tests(integration_tests)
-        integration_blocked = False
+    fixture_adapter = _adapter()
+    fixtures = UIAFixtureManager(fixture_adapter)
+    notepad_target = next(item for item in FIXTURE_TARGETS if item.app == "Notepad")
+    fixture = fixtures.acquire(notepad_target, allow_launch=True)
+    print(
+        f"NOTEPAD FIXTURE: status={fixture.status.value} command={fixture.command} "
+        f"launched_pid={fixture.launched_pid} elapsed={fixture.elapsed_seconds:.3f}s"
+    )
+    for index, candidate in enumerate(fixture.candidates):
         print(
-            "REAL UIA INTEGRATION RESULT: "
-            f"{'PASS' if integration_failures == 0 else 'FAIL'}"
+            f"FIXTURE WINDOW[{index}]: title={candidate.title!r} pid={candidate.pid} "
+            f"handle={candidate.handle} rect={candidate.rect} "
+            f"visible={candidate.visible} enabled={candidate.enabled}"
         )
+
+    try:
+        if fixture.status == FixtureStatus.FIXTURE_UNAVAILABLE:
+            print("BLOCKED - environment exposes zero Notepad windows")
+            integration_failures = 0
+            integration_blocked = True
+        elif fixture.status != FixtureStatus.AVAILABLE:
+            print(f"FIXTURE ERROR: {fixture.error}")
+            integration_failures = 1
+            integration_blocked = False
+        else:
+            global TARGET_HANDLE
+            TARGET_HANDLE = fixture.selected.handle if fixture.selected else None
+            integration_failures = _run_tests(integration_tests)
+            integration_blocked = False
+            print(
+                "REAL UIA INTEGRATION RESULT: "
+                f"{'PASS' if integration_failures == 0 else 'FAIL'}"
+            )
+    finally:
+        fixtures.cleanup()
 
     print()
     print("================================")
@@ -518,6 +535,7 @@ def run_suite() -> int:
         result = "BLOCKED"
     else:
         result = "PASS" if integration_failures == 0 else "FAIL"
+    print(f"D3 REGRESSION: {result}")
     print(f"D3 RESULT: {result}")
     print("================================")
     return 1 if unit_failures or integration_failures else 0

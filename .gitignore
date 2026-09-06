@@ -41,3 +41,11 @@ apps/web/dist/
 worktrees/
 .agents/worktrees/
 .typert-*/
+# Python cache files
+__pycache__/
+*.pyc
+
+# .NET / C# Build Outputs
+bin/
+obj/
+

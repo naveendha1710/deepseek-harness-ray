@@ -1,0 +1,530 @@
+{
+  "actions": [
+    {
+      "action": "click",
+      "after": 0,
+      "before": 0,
+      "coordinates": [
+        303,
+        241
+      ],
+      "duration": 0.10100090014748275,
+      "error": null,
+      "expected": 1,
+      "status": "SUPPORTED",
+      "target": "button",
+      "timestamp": 1788692984.232563,
+      "verification": false
+    },
+    {
+      "action": "click",
+      "after": false,
+      "before": false,
+      "coordinates": [
+        469,
+        240
+      ],
+      "duration": 0.10034230002202094,
+      "error": null,
+      "expected": true,
+      "status": "SUPPORTED",
+      "target": "checkbox",
+      "timestamp": 1788692986.3838575,
+      "verification": false
+    },
+    {
+      "action": "type_text",
+      "after": "initial text",
+      "before": "initial text",
+      "coordinates": "D6A_COORDINATE_TEXT",
+      "duration": 0.10126620018854737,
+      "error": null,
+      "expected": "D6A_COORDINATE_TEXT",
+      "status": "SUPPORTED",
+      "target": "text",
+      "timestamp": 1788692988.7312865,
+      "verification": false
+    },
+    {
+      "action": "hotkey",
+      "after": "D6A Coordinate Fixture",
+      "before": "D6A Coordinate Fixture",
+      "coordinates": [
+        "ctrl",
+        "k"
+      ],
+      "duration": 0.10077750007621944,
+      "error": null,
+      "expected": false,
+      "status": "SUPPORTED",
+      "target": "hotkey",
+      "timestamp": 1788692990.8822856,
+      "verification": false
+    },
+    {
+      "action": "drag",
+      "after": [
+        738,
+        261
+      ],
+      "before": [
+        738,
+        261
+      ],
+      "coordinates": [
+        [
+          738,
+          261
+        ],
+        [
+          898,
+          261
+        ]
+      ],
+      "duration": 0.4547194999177009,
+      "error": null,
+      "expected": [
+        898,
+        261
+      ],
+      "status": "SUPPORTED",
+      "target": "drag",
+      "timestamp": 1788692992.9913218,
+      "verification": false
+    },
+    {
+      "action": "scroll",
+      "after": 0,
+      "before": 0,
+      "coordinates": -5,
+      "duration": 0.10070389998145401,
+      "error": null,
+      "expected": "changed",
+      "status": "SUPPORTED",
+      "target": "scroll",
+      "timestamp": 1788692995.5958877,
+      "verification": false
+    }
+  ],
+  "coordinates": {
+    "button": {
+      "Bottom": 271,
+      "Height": 60,
+      "IsEmpty": false,
+      "Left": 213,
+      "Location": {
+        "IsEmpty": false,
+        "X": 213,
+        "Y": 211
+      },
+      "Right": 393,
+      "Size": {
+        "Height": 60,
+        "IsEmpty": false,
+        "Width": 180
+      },
+      "Top": 211,
+      "Width": 180,
+      "X": 213,
+      "Y": 211
+    },
+    "checkbox": {
+      "Bottom": 250,
+      "Height": 19,
+      "IsEmpty": false,
+      "Left": 428,
+      "Location": {
+        "IsEmpty": false,
+        "X": 428,
+        "Y": 231
+      },
+      "Right": 510,
+      "Size": {
+        "Height": 19,
+        "IsEmpty": false,
+        "Width": 82
+      },
+      "Top": 231,
+      "Width": 82,
+      "X": 428,
+      "Y": 231
+    },
+    "drag_object": {
+      "Bottom": 291,
+      "Height": 60,
+      "IsEmpty": false,
+      "Left": 688,
+      "Location": {
+        "IsEmpty": false,
+        "X": 688,
+        "Y": 231
+      },
+      "Right": 788,
+      "Size": {
+        "Height": 60,
+        "IsEmpty": false,
+        "Width": 100
+      },
+      "Top": 231,
+      "Width": 100,
+      "X": 688,
+      "Y": 231
+    },
+    "drag_target": {
+      "Bottom": 301,
+      "Height": 80,
+      "IsEmpty": false,
+      "Left": 838,
+      "Location": {
+        "IsEmpty": false,
+        "X": 838,
+        "Y": 221
+      },
+      "Right": 958,
+      "Size": {
+        "Height": 80,
+        "IsEmpty": false,
+        "Width": 120
+      },
+      "Top": 221,
+      "Width": 120,
+      "X": 838,
+      "Y": 221
+    },
+    "scroll_region": {
+      "Bottom": 651,
+      "Height": 250,
+      "IsEmpty": false,
+      "Left": 213,
+      "Location": {
+        "IsEmpty": false,
+        "X": 213,
+        "Y": 401
+      },
+      "Right": 513,
+      "Size": {
+        "Height": 250,
+        "IsEmpty": false,
+        "Width": 300
+      },
+      "Top": 401,
+      "Width": 300,
+      "X": 213,
+      "Y": 401
+    },
+    "text_rect": {
+      "Bottom": 334,
+      "Height": 23,
+      "IsEmpty": false,
+      "Left": 213,
+      "Location": {
+        "IsEmpty": false,
+        "X": 213,
+        "Y": 311
+      },
+      "Right": 493,
+      "Size": {
+        "Height": 23,
+        "IsEmpty": false,
+        "Width": 280
+      },
+      "Top": 311,
+      "Width": 280,
+      "X": 213,
+      "Y": 311
+    }
+  },
+  "failures": [],
+  "fixture": {
+    "owned": true,
+    "pid": 15596,
+    "state_path": "C:\\Users\\DELL\\AppData\\Local\\Temp\\d6a-fixture-1788692982604364100.json",
+    "title": "D6A Coordinate Fixture"
+  },
+  "repeatability": [
+    {
+      "action": "click",
+      "attempts": [
+        {
+          "duration": 0.1007396001368761,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10046779992990196,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10091349994763732,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10079950001090765,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.1007445000577718,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "double_click",
+      "attempts": [
+        {
+          "duration": 0.10071960021741688,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10107249999418855,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10100060002878308,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10096479998901486,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.1008197998162359,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "checkbox",
+      "attempts": [
+        {
+          "duration": 0.10067870002239943,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.1006520998198539,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10069260001182556,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10100569995120168,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10066579980775714,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "typing",
+      "attempts": [
+        {
+          "duration": 0.30294069997034967,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.3036571000702679,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.30292809987440705,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.30277070007286966,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.3026423999108374,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "hotkey",
+      "attempts": [
+        {
+          "duration": 0.10078709991648793,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.1007965998724103,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10072919982485473,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.1009557000361383,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10063180001452565,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "drag",
+      "attempts": [
+        {
+          "duration": 0.45497329998761415,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.4544667999725789,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.4539785000961274,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.45570689998567104,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.4548074998892844,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    },
+    {
+      "action": "scroll",
+      "attempts": [
+        {
+          "duration": 0.10031879995949566,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10084930015727878,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.100694399792701,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.10063970019109547,
+          "status": "attempted"
+        },
+        {
+          "duration": 0.100788600044325,
+          "status": "attempted"
+        }
+      ],
+      "failure_count": 0,
+      "flaky": false,
+      "success_count": 5,
+      "success_rate": 1.0
+    }
+  ],
+  "screen": {
+    "cursor": [
+      1558,
+      898
+    ],
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "screenshots": [
+    {
+      "cursor": [
+        1558,
+        898
+      ],
+      "path": "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\artifacts\\screenshots\\d6a_before.png",
+      "screen": [
+        1920,
+        1080
+      ],
+      "target_rect": {
+        "Bottom": 271,
+        "Height": 60,
+        "IsEmpty": false,
+        "Left": 213,
+        "Location": {
+          "IsEmpty": false,
+          "X": 213,
+          "Y": 211
+        },
+        "Right": 393,
+        "Size": {
+          "Height": 60,
+          "IsEmpty": false,
+          "Width": 180
+        },
+        "Top": 211,
+        "Width": 180,
+        "X": 213,
+        "Y": 211
+      },
+      "timestamp": 1788692984.229382
+    },
+    {
+      "cursor": [
+        1558,
+        898
+      ],
+      "path": "Z:\\Projects\\Tools\\deepseek_harness_ray\\deepseek-harness\\desktop-agent\\artifacts\\screenshots\\d6a_after.png",
+      "screen": [
+        1920,
+        1080
+      ],
+      "target_rect": {
+        "Bottom": 651,
+        "Height": 250,
+        "IsEmpty": false,
+        "Left": 213,
+        "Location": {
+          "IsEmpty": false,
+          "X": 213,
+          "Y": 401
+        },
+        "Right": 513,
+        "Size": {
+          "Height": 250,
+          "IsEmpty": false,
+          "Width": 300
+        },
+        "Top": 401,
+        "Width": 300,
+        "X": 213,
+        "Y": 401
+      },
+      "timestamp": 1788693004.1331048
+    }
+  ],
+  "timings": {
+    "total": 21.53193569998257
+  }
+}

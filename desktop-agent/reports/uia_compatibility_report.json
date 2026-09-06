@@ -1,0 +1,471 @@
+{
+  "applications": [
+    {
+      "app": "Notepad",
+      "controls_found": 80,
+      "executable": "notepad.exe",
+      "failure_reasons": [],
+      "fixture_status": "available",
+      "framework_hints": {
+        "candidate_count": 2,
+        "candidates": [
+          {
+            "class_name": "Notepad",
+            "enabled": true,
+            "framework_id": "Win32",
+            "handle": 1639136,
+            "pid": 11188,
+            "rect": null,
+            "title": "Untitled - Notepad",
+            "visible": true
+          },
+          {
+            "class_name": "Notepad",
+            "enabled": true,
+            "framework_id": "Win32",
+            "handle": 721490,
+            "pid": 11188,
+            "rect": null,
+            "title": "*D3_UIA_WRITE_TEST_2026_REPEAT_5_325 - Notepad",
+            "visible": true
+          }
+        ],
+        "class_name": "Notepad",
+        "fixture": {
+          "elapsed_seconds": 0.047,
+          "error": null,
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*Notepad.*'"
+          ],
+          "status": "available"
+        },
+        "framework_id": "Win32",
+        "handle": 721490,
+        "pid": 11188
+      },
+      "launchable": true,
+      "notes": [
+        "Action probes are intentionally non-destructive and opt-in work remains for a later phase"
+      ],
+      "primitives": [
+        {
+          "attempted": true,
+          "control_metadata": null,
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "window_discovery"
+        },
+        {
+          "attempted": true,
+          "control_metadata": null,
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "deterministic_window_target"
+        },
+        {
+          "attempted": true,
+          "control_metadata": null,
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "control_discovery"
+        },
+        {
+          "attempted": true,
+          "control_metadata": {
+            "class_name": "RichEditD2DPT",
+            "control_type": "Document",
+            "enabled": true,
+            "framework_id": "Win32",
+            "handle": 133008,
+            "iface_text": true,
+            "name": "Text editor",
+            "pid": 11188,
+            "runtime_id": [
+              42,
+              133008
+            ],
+            "visible": true
+          },
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "control_type:Document"
+        },
+        {
+          "attempted": true,
+          "control_metadata": {
+            "class_name": "RichEditD2DPT",
+            "control_type": "Document",
+            "enabled": true,
+            "framework_id": "Win32",
+            "handle": 133008,
+            "iface_text": true,
+            "name": "Text editor",
+            "pid": 11188,
+            "runtime_id": [
+              42,
+              133008
+            ],
+            "visible": true
+          },
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "semantic_name"
+        },
+        {
+          "attempted": true,
+          "control_metadata": {
+            "class_name": "RichEditD2DPT",
+            "control_type": "Document",
+            "enabled": true,
+            "framework_id": "Win32",
+            "handle": 133008,
+            "iface_text": true,
+            "name": "Text editor",
+            "pid": 11188,
+            "runtime_id": [
+              42,
+              133008
+            ],
+            "visible": true
+          },
+          "error": null,
+          "failure_category": "none",
+          "passed": true,
+          "primitive": "read_text"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; focus changes active desktop state",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "focus"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "click"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "type"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "checkbox"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "toggle"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "combo_box"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "list"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "tree"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "menu"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "tab"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "scroll"
+        },
+        {
+          "attempted": false,
+          "control_metadata": null,
+          "error": "Not attempted by default; compatibility matrix is non-destructive",
+          "failure_category": "not_attempted",
+          "passed": false,
+          "primitive": "selection_state"
+        }
+      ],
+      "selector_reliability": {
+        "control_type:Document": "passed",
+        "handle": "passed",
+        "name": "available"
+      },
+      "status": "uia_supported",
+      "supported_primitives": [
+        "Document",
+        "semantic_name",
+        "read_text"
+      ],
+      "ui_automation_supported": true,
+      "unsupported_primitives": [
+        "click",
+        "type",
+        "checkbox",
+        "toggle",
+        "combo_box",
+        "list",
+        "tree",
+        "menu",
+        "tab",
+        "scroll",
+        "selection_state"
+      ],
+      "window_found": true
+    },
+    {
+      "app": "File Explorer",
+      "controls_found": 0,
+      "executable": "explorer.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.035,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*(File Explorer|Explorer).*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "Windows Settings",
+      "controls_found": 0,
+      "executable": "SystemSettings.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.034,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*Settings.*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "Paint",
+      "controls_found": 0,
+      "executable": "mspaint.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.034,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*Paint.*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "PowerShell",
+      "controls_found": 0,
+      "executable": "powershell.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.035,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*(Windows PowerShell|PowerShell).*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "Windows Terminal",
+      "controls_found": 0,
+      "executable": "wt.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.035,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*(Windows Terminal|Terminal).*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "Microsoft Edge",
+      "controls_found": 0,
+      "executable": "msedge.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.039,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*Microsoft Edge.*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    },
+    {
+      "app": "Calculator",
+      "controls_found": 0,
+      "executable": "CalculatorApp.exe",
+      "failure_reasons": [],
+      "fixture_status": "fixture_unavailable",
+      "framework_hints": {
+        "fixture": {
+          "elapsed_seconds": 0.038,
+          "error": "No visible UIA window matched the target",
+          "launched_pid": null,
+          "selectors_attempted": [
+            "title_re='.*Calculator.*'"
+          ],
+          "status": "fixture_unavailable"
+        }
+      },
+      "launchable": true,
+      "notes": [
+        "No visible UIA window matched the target"
+      ],
+      "primitives": [],
+      "selector_reliability": {},
+      "status": "unavailable",
+      "supported_primitives": [],
+      "ui_automation_supported": false,
+      "unsupported_primitives": [],
+      "window_found": false
+    }
+  ],
+  "schema_version": 1
+}
